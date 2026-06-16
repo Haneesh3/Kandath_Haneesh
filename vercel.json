@@ -1,9 +1,7 @@
 {
   "version": 2,
   "builds": [
-    { "src": "haneesh_portfolio.html", "use": "@vercel/static" }
+    { "src": "**/*", "use": "@vercel/static" }
   ],
-  "routes": [
-    { "src": "/", "dest": "/haneesh_portfolio.html" }
-  ]
+  "cleanUrls": true
 }
